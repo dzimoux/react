@@ -1,8 +1,8 @@
 import {apiService} from "./apiService";
 
 const postService ={
-    getAll: apiService.get('/users'),
-    create: (data) => apiService.post('/users', data),
+    getAll: apiService.get('/comments'),
+    create: (data) => apiService.post('/comments', data),
 }
 
 export {postService}
