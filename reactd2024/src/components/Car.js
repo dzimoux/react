@@ -10,6 +10,9 @@ await CarService.deletebyId(id);
 
 setTrigger(trigger=!trigger);
 
+const updateCar = async(id) => {
+    await CarService.updateById(id);
+}
     }
 
     return (
@@ -20,7 +23,6 @@ setTrigger(trigger=!trigger);
             <div>year: {year}</div>
             <button onClick={deleteCar}>DELETE</button>
             <button>UPDATE</button>
-
         </div>
     );
 };
