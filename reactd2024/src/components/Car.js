@@ -1,18 +1,19 @@
 import React from 'react';
 import {CarService} from "../services/CarService";
 
-const Car = ({car,setTrigger,trigger}) => {
-    const {id,brand,price,year} = car;
+const Car = ({car, setTrigger, trigger}) => {
+    const {id, brand, price, year} = car;
 
-    const deleteCar =  async() =>{
+    const deleteCar = async () => {
 
-await CarService.deletebyId(id);
+        await CarService.deletebyId(id);
 
-setTrigger(trigger=!trigger);
+// setTrigger(trigger=!trigger);
+        setTrigger(prev => !prev);
 
-const updateCar = async(id) => {
-    await CarService.updateById(id);
-}
+        const updateCar = async (id) => {
+            await CarService.updateById(id);
+        }
     }
 
     return (
