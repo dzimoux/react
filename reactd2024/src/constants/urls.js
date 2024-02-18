@@ -8,7 +8,8 @@ const urls = {
     url: {
         todos,
         albums,
-        comments
+        comments,
+        getPostById: (id) => `/posts/${id}`,
     }
 }
 
