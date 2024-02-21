@@ -4,6 +4,8 @@ import {UsersPage} from "./pages/UsersPage";
 import {UserDetails} from "./components/UserDetails";
 import {UserDetailsPage} from "./pages/UserDetailsPage";
 import {PostPage} from "./pages/PostPage";
+import {PostDetailsPage} from "./pages/PostDetailsPage";
+import {Comments} from "./components/comments/Comments";
 
 
 const router = createBrowserRouter([
@@ -17,7 +19,15 @@ const router = createBrowserRouter([
                         {
                             path: ':id', element: <UserDetailsPage/>, children: [
                                 {
-                                    path: 'posts', element: <PostPage/>
+                                    path: ':id', element: <PostPage/>, children: [
+                                        {
+                                            path: ':userId', element: <PostDetailsPage/>, children: [
+                                                {
+                                                    path: ':userId', element: <Comments/>
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             ]
                         }

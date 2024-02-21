@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import {Post} from "../components/posts/Posts";
+
 import {postService} from "../services/postService";
-import {useParams} from "react-router-dom";
+import {Outlet, useParams} from "react-router-dom";
+import {Posts} from "../components/posts/Posts";
 
 
 const PostPage = () => {
@@ -13,8 +14,9 @@ const PostPage = () => {
 
     return (
         <div>
-            Привіт, це пости
-            {posts && <Post/>}
+            <h3>Привіт, це пости</h3>
+            {posts.map(post => <Posts key={post.id} post={post}/>)}
+            <Outlet/>
         </div>
     );
 };

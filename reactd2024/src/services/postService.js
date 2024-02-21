@@ -12,9 +12,14 @@ const postService = {
     getAllbyUserID: (id) => apiService.get(urls.posts.byUserID(id))
 }
 
+const commentService = {
+    getCommentbyPostId: (id) => apiService.get(urls.comments.byPostID(id))
+}
+
 
 export {
     userService,
-    postService
+    postService,
+    commentService
 }
 
