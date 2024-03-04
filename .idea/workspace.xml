@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c99ee2d-6aff-49ef-9116-eb9295ac5dbf" name="Changes" comment="Lesson_4 Part 1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson_4" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2bnBrhhLiEBPKGV5ETDgCW1QA44" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/PC/IdeaProjects/react2024",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="react" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="react" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c99ee2d-6aff-49ef-9116-eb9295ac5dbf" name="Changes" comment="" />
+      <created>1706841162496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706841162496</updated>
+      <workItem from="1706841164175" duration="1257000" />
+      <workItem from="1706914757882" duration="21040000" />
+      <workItem from="1707287928204" duration="57550000" />
+      <workItem from="1708040793258" duration="405000" />
+      <workItem from="1708041231180" duration="48000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1706920895744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706920895744</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lesson_1 Homework: done">
+      <option name="closed" value="true" />
+      <created>1706984785891</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706984785891</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lesson_2 Part 1 Homework: done.">
+      <option name="closed" value="true" />
+      <created>1707495546563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707495546563</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lesson_2 Part 2 Homework: done.">
+      <option name="closed" value="true" />
+      <created>1707504151652</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707504151652</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lesson_2 Part 2 Homework: done. Added axios">
+      <option name="closed" value="true" />
+      <created>1707505039108</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707505039108</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lesson_3 Part 1 Homework: done.&#10;Added form for comments">
+      <option name="closed" value="true" />
+      <created>1707787415732</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707787415732</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Lesson_3 Part 2 Homework: done.">
+      <option name="closed" value="true" />
+      <created>1707788938138</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707788938138</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Lesson_3 Part 1 Homework: done.">
+      <option name="closed" value="true" />
+      <created>1707789126835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707789126835</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Lesson_3 Part 1 Homework: not done yet.">
+      <option name="closed" value="true" />
+      <created>1707791410766</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707791410766</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Lesson_3 Part 1 Homework: delete func - done.">
+      <option name="closed" value="true" />
+      <created>1707879589578</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707879589578</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Lesson_3 Part 1 Homework: delete func - done.&#10;update-beginning">
+      <option name="closed" value="true" />
+      <created>1707963018921</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707963018921</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Lesson_4 Part 1">
+      <option name="closed" value="true" />
+      <created>1708041031337</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708041031337</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lesson_4" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Lesson_1 Homework: done" />
+    <MESSAGE value="Lesson_2 Part 1 Homework: done." />
+    <MESSAGE value="Lesson_2 Part 2 Homework: done." />
+    <MESSAGE value="Lesson_2 Part 2 Homework: done. Added axios" />
+    <MESSAGE value="Lesson_3 Part 1 Homework: done.&#10;Added form for comments" />
+    <MESSAGE value="Lesson_3 Part 2 Homework: done." />
+    <MESSAGE value="Lesson_3 Part 1 Homework: done." />
+    <MESSAGE value="Lesson_3 Part 1 Homework: not done yet." />
+    <MESSAGE value="Lesson_3 Part 1 Homework: delete func - done." />
+    <MESSAGE value="Lesson_3 Part 1 Homework: delete func - done.&#10;update-beginning" />
+    <MESSAGE value="Lesson_4 Part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson_4 Part 1" />
+  </component>
+</project>
