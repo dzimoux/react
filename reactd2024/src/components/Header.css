@@ -1,0 +1,20 @@
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    padding: 20px;
+    background-color: #000080;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.header-link:hover {
+    color: #ff0000;
+}
+

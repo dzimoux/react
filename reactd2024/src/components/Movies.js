@@ -2,12 +2,13 @@ import React, {useEffect, useState} from 'react';
 import {useSearchParams} from "react-router-dom";
 import {movieService} from "../services/movieService";
 import {Movie} from "./Movie";
-
+import {Header} from "./Header";
+import './Movies.css';
 
 const Movies = () => {
     const [movies, setMovies] = useState([]);
     const [query, setQuery] = useSearchParams({page: '1'});
-    const [prevNext, setPrevNext] = useState({prev: null, next: null});
+
 
     useEffect(() => {
         movieService.getMoviesPages(query.get('page')).then(({data}) => setMovies(data.results),
@@ -28,11 +29,16 @@ const Movies = () => {
         })
     }
 
+
     return (
-        <div>
-            <button disabled={query.get('page') === '1'} onClick={prev}>Prev</button>
-            <button disabled={query.get('page') >= '500'} onClick={next}>Next</button>
-            {movies.map(movie => <Movie key={movie.id} movie={movie}/>)}
+        <div className="movies-container" id={'container'}>
+            <div className="movies-grid">
+                {movies.map(movie => <Movie key={movie.id} movie={movie}/>)}
+            </div>
+            <div className="navigation-buttons">
+                <button disabled={query.get('page') === '1'} onClick={prev} className="navigation-button">Prev</button>
+                <button disabled={query.get('page') > '500'} onClick={next} className="navigation-button">Next</button>
+            </div>
         </div>
     );
 };

@@ -1,15 +1,14 @@
 import React from 'react';
-
-import {MovieDetails} from "../components/MovieDetails";
+import {GenreDetails} from "../components/GenreDetails";
 import {Header} from "../components/Header";
 
-const MovieDetailsPage = () => {
+const GenreDetailsPage = () => {
     return (
         <div>
             <Header/>
-            <MovieDetails/>
+            <GenreDetails/>
         </div>
     );
 };
 
-export {MovieDetailsPage};
+export {GenreDetailsPage};
