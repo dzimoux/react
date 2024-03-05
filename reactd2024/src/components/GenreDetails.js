@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {movieService} from "../services/movieService";
 import {useParams, useSearchParams} from "react-router-dom";
 import {GenreDetailMovies} from "./GenreDetailMovies";
+import './GenreDetailMovies.css'
 
 const GenreDetails = () => {
     const [movies, setMovies] = useState([]);
@@ -17,8 +18,10 @@ const GenreDetails = () => {
 
 
     return (
-        <div>
-            {/*{movies && movies.map(genreMovies => <GenreDetailMovies genreMovies={genreMovies}/>)}*/}
+        <div className="movie-grid">
+            {movies && movies.map((genreMovies, index) => (
+                <GenreDetailMovies key={index} genreMovies={genreMovies}/>
+            ))}
         </div>
     );
 };
