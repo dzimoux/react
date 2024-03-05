@@ -19,7 +19,7 @@ const PreparedResult = ({result}) => {
                 <div>
                     <p>{resultItems.title}</p>
                     <p>{resultItems.overview}</p>
-                    {/* інші дані, які ви хочете відобразити */}
+                  
                 </div>
             )}
             {/*<PreparedResultDetails resultItems={resultItems}/>*/}
