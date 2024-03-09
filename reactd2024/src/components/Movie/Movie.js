@@ -5,9 +5,12 @@ import './Movie.css';
 const Movie = ({movie}) => {
     const {id, original_title, poster_path} = movie;
     const navigate = useNavigate();
+    const getNavigate = () => {
+        navigate(`/movie/${id}`)
+    }
 
     return (
-        <div className="movie-card" onClick={() => navigate(`/movie/${id}`)}>
+        <div className="movie-card" onClick={getNavigate}>
             {poster_path && (
                 <img
                     className="movie-card-image"

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {movieService} from "../services/movieService";
+import {movieService} from "../../services/movieService";
 
 
 const PreparedResult = ({result}) => {
@@ -19,7 +19,7 @@ const PreparedResult = ({result}) => {
                 <div>
                     <p>{resultItems.title}</p>
                     <p>{resultItems.overview}</p>
-                  
+
                 </div>
             )}
             {/*<PreparedResultDetails resultItems={resultItems}/>*/}

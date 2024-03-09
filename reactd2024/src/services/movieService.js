@@ -3,7 +3,7 @@ import {api_key} from "../urls/url";
 
 
 const movieService = {
-    getMoviesPages: (page = '1') => apiRequest.get('/discover/movie', {
+    getMoviesPages: (page) => apiRequest.get('/discover/movie', {
         params: {
             page,
             api_key
@@ -23,9 +23,10 @@ const movieService = {
 
     }),
 
-    getChoosedGenre: () => apiRequest.get('/discover/movie', {
+    getChoosedGenre: (genre_id, page) => apiRequest.get(`/discover/movie?with_genres=${genre_id}&page=${page}`, {
         params: {
-
+            page,
+            genre_id,
             api_key
         }
     }),

@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 
-import {movieService} from "../services/movieService";
+import {movieService} from "../../services/movieService";
 import {useParams} from "react-router-dom";
 import {MovieDetail} from "./MovieDetail";
 

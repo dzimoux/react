@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import {useSearchParams} from "react-router-dom";
-import {movieService} from "../services/movieService";
-import {Movie} from "./Movie";
-import {Header} from "./Header";
+import {movieService} from "../../services/movieService";
+import {Movie} from "../Movie/Movie";
+import {Header} from "../Header/Header";
 import './Movies.css';
 
 const Movies = () => {

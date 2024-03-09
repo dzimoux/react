@@ -1,13 +1,10 @@
 import React from 'react';
-import {GenreDetails} from "../components/GenreDetails";
-import {Header} from "../components/Header";
+import {GenreDetails} from "../components/GenreDetailMovies/GenreDetails";
+import {Header} from "../components/Header/Header";
 
 const GenreDetailsPage = () => {
     return (
-        <div>
-            <Header/>
-            <GenreDetails/>
-        </div>
+        <GenreDetails/>
     );
 };
 

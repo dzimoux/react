@@ -2,6 +2,7 @@
 .search-bar {
     position: relative;
     margin-bottom: 20px;
+
 }
 
 .search-input {
@@ -18,10 +19,8 @@
 }
 
 .search-button {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
+
+    margin-left: 20px;
     padding: 10px 20px;
     font-size: 16px;
     background-color: #000080;
@@ -33,4 +32,12 @@
 
 .search-button:hover {
     background-color: #ff0000;
+}
+
+.searched-movie-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
 }

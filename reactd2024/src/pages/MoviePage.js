@@ -1,13 +1,10 @@
 import React from 'react';
-import {Movies} from "../components/Movies";
-import {Header} from "../components/Header";
+import {Movies} from "../components/Movies/Movies";
+import {Header} from "../components/Header/Header";
 
 const MoviePage = () => {
     return (
-        <div>
-            <Header/>
-            <Movies/>
-        </div>
+        <Movies/>
     );
 };
 

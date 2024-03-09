@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {movieService} from "../services/movieService";
-import {SearchResults} from "./SearchResults";
+import {movieService} from "../../services/movieService";
+import {SearchResults} from "../SearchResults/SearchResults";
 import './SearchBar.css'
 
 const SearchBar = () => {
