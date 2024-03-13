@@ -6,7 +6,7 @@ const Episode = ({oneEp}) => {
     const {id, name, episode} = oneEp;
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate(`/character/${id}`); // Навігація до сторінки персонажа з параметром id
+        navigate(`/character/${id}`);
     };
     return (
         <div>

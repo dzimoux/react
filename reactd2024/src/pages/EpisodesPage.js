@@ -12,7 +12,7 @@ const EpisodesPage = () => {
     useEffect(() => {
         postService.episodes.getAllEpisode(query.get('page')).then(({data}) => setEpisodes(data.results), setPrevNext());
 
-    }, [])
+    }, [query.get('page')])
     console.log(episodes)
 
     return (

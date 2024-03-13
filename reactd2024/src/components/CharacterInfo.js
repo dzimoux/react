@@ -1,21 +1,19 @@
 import React, {useEffect, useState} from 'react';
-
 import {CharacterDetails} from "./CharacterDetails";
-import {postService} from "../services/postService";
+import axios from "axios";
 
 const CharacterInfo = ({oneChar}) => {
-    const {id} = oneChar;
-    const [charDetails, setCharDetails] = useState([]);
-
+    const [oneCharacter, setOneCharacter] = useState('');
 
     useEffect(() => {
-        postService.characters.getCharacterbyId(id).then(({data}) => setCharDetails(data))
-    }, [])
-
+        axios.get(oneChar)
+            .then(({data}) => setOneCharacter(data))
+            .catch(error => console.error(error));
+    }, [oneChar]);
 
     return (
         <div>
-            <CharacterDetails charDetails={charDetails}/>
+            <CharacterDetails charDetails={oneCharacter}/>
         </div>
     );
 };

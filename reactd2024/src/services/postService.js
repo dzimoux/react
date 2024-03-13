@@ -1,14 +1,14 @@
 import {apiService} from "./apiService";
-import {urls} from "../urls/url";
+
 
 const postService = {
     episodes: {
-        getAllEpisode: (page = '1') => apiService.get(urls.episodes.base, {params: {page}}),
-        getEpisodebyId: (id) => apiService.get(urls.episodes.byId(id))
+        getAllEpisode: (page = '1') => apiService.get('/episode/?page=', {params: {page}}),
+        getEpisodebyId: (id) => apiService.get(`/episode/${id}`)
     },
     characters: {
-        getAllCharacter: () => apiService.get(urls.characters.base),
-        getCharacterbyId: (id) => apiService.get(urls.characters.byId(id))
+        getAllCharacter: () => apiService.get('/character'),
+        getCharacterbyId: (id) => apiService.get(`/character/${id}`)
     }
 }
 
